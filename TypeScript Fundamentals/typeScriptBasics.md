@@ -57,6 +57,7 @@ Aliases:  use 'type' to assign an 'alias' that can be defined and used at other 
 **Generics**:  flexible.  Use <> with 'T' (i.e. <T>) to help define any type - that can be used and inferred with your code.  Creates flexibility and type safety.
 
 **Classes and Interfaces**: 
+
 **Classes** in typeScript can be defined within the Constructor and made public or private. 
 > Example:  class Student {
 >    constructor(public firstName: string, public lastName: string, public age: number, private courses: string[]) {}
@@ -72,11 +73,11 @@ Aliases:  use 'type' to assign an 'alias' that can be defined and used at other 
 A class can define the 'infrastructure' needed for data. What data and types of data are needed.
 
 **Interface**
-> feature only exists in typeScript (not JS).
-> object type definitions (interface)
-> Helps define the structure and forces us to utilize said structure.
-Create a structure that includes a method that does not return any value (i.e.:  greet: () => void;)
-Can use Interfaces to define object types; they can be an alternative to defining object types.
+1. feature only exists in typeScript (not JS).
+2. object type definitions (interface)
+3. Helps define the structure and forces us to utilize said structure.
+4. Create a structure that includes a method that does not return any value (i.e.:  greet: () => void;)
+5. Can use Interfaces to define object types; they can be an alternative to defining object types.
 >   > can force us to add certain features to a class in order to utilize the class appropriately
 > (i.e.:  class Instructor implements Human {
 >   this structure must include what is defined in the interface 'Human'
@@ -118,4 +119,6 @@ The Nuget Package Manager Console (found in Tools > NuGet Package Manager > Pack
 Install-Package Microsoft.TypeScript.MSBuild
 
 > For project types which don't support Nuget, you can use the TypeScript Visual Studio extension. You can install the extension using Extensions > Manage Extensions in Visual Studio.
+
+
 **Visit typescriptlang.org Website to learn more**
