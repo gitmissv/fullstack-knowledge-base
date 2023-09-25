@@ -6,6 +6,7 @@ Open Terminal and run:  npm init -y
 >   this will give empty json pkg file 
  
 > >?? **Do you need this each time?**  
+>  A:  YES - run npm init -y; then install typescript; then compile.
 > >    **WHY? | WHY NOT?**
 
 **then run:**    npm install typescript
@@ -19,7 +20,9 @@ Must compile TS before running - this will help spot problems within your code.
      (This will compile on the ts file that should be compiled.  Otherwise, it will attempt to run on all files in full program)
 
 > ?? **Why does output change TS to 'Var'?** 
+>   A:  compiling turns code into pre-ES6; 
 > ??  **Do you leave as is, or change?**
+>   A:  you can change it in the TS config file, but not a big deal!
 > ??  **WHY?**
 
 > >     ?? **What are the extra files compiling creates?**
