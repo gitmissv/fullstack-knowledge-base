@@ -6,7 +6,7 @@ Open Terminal and run:  npm init -y
 >   this will give empty json pkg file 
  
 > >?? **Do you need this each time?**  
-> >    **WHY?| WHY NOT?**
+> >    **WHY? | WHY NOT?**
 
 **then run:**    npm install typescript
 
@@ -18,12 +18,12 @@ Must compile TS before running - this will help spot problems within your code.
 >   >  i.e.:  npx tsc with-typescript.ts
      (This will compile on the ts file that should be compiled.  Otherwise, it will attempt to run on all files in full program)
 
-?? **Why does output change TS to 'Var'?** 
-??  **Do you leave as is, or change?**
-??  **WHY?**
+> ?? **Why does output change TS to 'Var'?** 
+> ??  **Do you leave as is, or change?**
+> ??  **WHY?**
 
-> > ?? **What are the extra files compiling creates?**
-> > ??    **How to understand what compling is doing?**
+> >     ?? **What are the extra files compiling creates?**
+> >     ??    **How to understand what compling is doing?**
 
 
 # TypeScript BASICS
