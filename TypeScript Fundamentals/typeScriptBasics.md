@@ -5,11 +5,15 @@ TypeScript is an extension  of(or powerful addition to) JavaScript - it adds sta
 Open Terminal and run:  npm init -y 
 >   this will give empty json pkg file 
  
-> >?? **Do you need this each time?**  
->  A:  YES - run npm init -y; then install typescript; then compile.
-> >    **WHY? | WHY NOT?**
+- ?? **Do you need this each time?**  
+     >  A:  YES - run npm init -y; then install typescript; then compile.
+- **WHY? | WHY NOT?** 
+     >  A:  Creates the json pkg needed to run code in typescript.
 
-**then run:**    npm install typescript
+**then run:**    npm install typescript -D
+>    -D generates the devDependencies file
+
+###IF DOWLOADING SOMEONE ELSE'S CODE --ALWAYS-- RUN npm install (i.e.:  code fr/ github)
 
 ## TypeScript does NOT run in the browser
 
@@ -19,14 +23,15 @@ Must compile TS before running - this will help spot problems within your code.
 >   >  i.e.:  npx tsc with-typescript.ts
      (This will compile on the ts file that should be compiled.  Otherwise, it will attempt to run on all files in full program)
 
-> ?? **Why does output change TS to 'Var'?** 
->   A:  compiling turns code into pre-ES6; 
-> ??  **Do you leave as is, or change?**
->   A:  you can change it in the TS config file, but not a big deal!
-> ??  **WHY?**
+- ?? **Why does output change TS to 'Var'?** 
+     >   A:  compiling turns code into pre-ES6; 
+- ??  **Do you leave as is, or change?**
+     >   A:  you can change it in the TS config file, but not a big deal!
+- ??  **WHY?**
 
 > >     ?? **What are the extra files compiling creates?**
 > >     ??    **How to understand what compling is doing?**
+> ONCE COMPILED:  you can run node [your js file ... no brackets] which is same as console.log w/i the terminal
 
 
 # TypeScript BASICS
