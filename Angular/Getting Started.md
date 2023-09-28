@@ -56,7 +56,8 @@ added 249 packages from 165 contributors in 37.399s
 > i.e.:  cd my-first-project/
 
 then run (to complete browser app bundle):  
-    > ng serve 
+> ng serve 
+> > open file at **localhost:4200**
 
 
 
