@@ -96,9 +96,27 @@ A class can define the 'infrastructure' needed for data. What data and types of 
 
 #Configuring the TypeScript Compiler
 
+---CLASS NOTES---
+npm = node package manager
+npm install typescript -D
+> 'D' generates the devDependencies
+> **If downloading someone else's code (i.e. from GitHub), **ALWAYS** run npm install**
 
+npx = node package execution
+> node main.js = same as console.log within terminal
 
+Type vs Interface:
+-type ______ **=** {
+     _______
+}
+-interface ______ {
+     _______
+}
 
+NOTE:  node mudules do not uploade to github
+> use .gitignore
+>
+> add node_modules
 
 
 

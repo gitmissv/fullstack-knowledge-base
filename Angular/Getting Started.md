@@ -59,8 +59,7 @@ then run (to complete browser app bundle):
 > ng serve 
 > > open file at **localhost:4200**
 
-
-
+____________________________________________
 ...@LAPTOP... /c/myWorkspace
 $ ls
  CodeLabs_Fall2023/   'TypeScript Demo'/           my-first-project/   typescript-exercises/
