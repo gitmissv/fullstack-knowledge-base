@@ -28,9 +28,9 @@ main.ts -> passes an app.module.ts file, which then triggers the app.component
         - styling <css> (if applicable)
         - business logic <ts>
 > Generate new components fr/ VSC terminal:
->   ng generate components
->    |    |         |
->   ng    g         c   **[name of component]*
+   ng generate components
+    |    |         |
+   ng    g         c   **[name of component]*
 - this creates new folder in your app folders w/ name of your 'new' component.
 - will create same comp files as what's in your main app folder
 - includes a ... spec.ts file (spec files used only for testing ... you can delete this file)
