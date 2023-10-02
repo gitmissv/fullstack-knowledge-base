@@ -5,20 +5,20 @@
 1. Open your repository in GitHub
 2. Click <> Code to get your link
 
-> copy the HTTPS link
+   > copy the HTTPS link
 
 3. Open Git Bash terminal
 
-> Navigate to the appropriate directory you want your cloned files
+   > Navigate to the appropriate directory you want your cloned files
 Run git clone [*https link from repository*]
 
 
-> i.e.  git clone https://github.com/gitmissv/fullstack-knowledge-base.git
+>>>> i.e.  git clone https://github.com/gitmissv/fullstack-knowledge-base.git
 
 **NOTE**  Copy/Paste functions:  
-> To copy in Git Bash: hold Shif and use the left/right arrows to select text area, then press 'Enter' to copy.
+>>> To copy in Git Bash: hold Shift and use the left/right arrows to select text area, then press 'Enter' to copy.
 
-> To paste in Git Bash: use (Shift + Insert)
+>>> To paste in Git Bash: use (Shift + Insert)
 
 
 4. Press **Enter** to create your local clone
