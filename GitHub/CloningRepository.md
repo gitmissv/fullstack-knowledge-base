@@ -40,7 +40,7 @@ Run git clone [*https link from repository*]
 
 
 
-# Fetching Changes from Remote Repository
+## Fetching Changes from Remote Repository
 
 Use *git fetch* to retrieve updates (by others or you working on different computers). 
 
@@ -51,7 +51,7 @@ If you already have a local respository with a remote URL for project, you can g
 > i.e.:  git fetch REMOTE-NAME
 
 
-# Merging changes into your local **branch**
+## Merging changes into your local **branch**
 
 Merging combines your local changes w/ changes made by others.
 
@@ -59,5 +59,5 @@ Merging combines your local changes w/ changes made by others.
 merges updates made online with your **local** work.
 
 
-
+------------------------------------------------
 See also GitHub docs about Managing Remote repositories:  https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
