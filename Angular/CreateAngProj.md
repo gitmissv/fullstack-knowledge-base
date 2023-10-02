@@ -3,6 +3,7 @@
 1.  Navigate to Folder
 2.  ng new [name_of_project] **no brackets*
    >if strict mode, add --no-strict (after name_of_project)
+
     1.  enter
     2.  ?1 - N
     3.  ?2 - CSS
@@ -30,4 +31,4 @@
 
 run ng (angular) g (generate) c (component) [**name of component* ... no brackets]
 
-> i.e.:  ng g c server
+> i.e.:  ng g c [**name of new component* ... no brackets]
