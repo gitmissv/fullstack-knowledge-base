@@ -17,7 +17,7 @@
 
 1.  angular.json file
     1.  Syles array, add:
-        1.  "node__modules/boostrap....min.css"
+        1.  "node_modules/boostrap....min.css"
 
 ## Within app file:
 
@@ -31,4 +31,9 @@
 
 run ng (angular) g (generate) c (component) [**name of component* ... no brackets]
 
-> i.e.:  ng g c [**name of new component* ... no brackets]
+    > i.e.:  ng g c [**name of new component* ... no brackets]
+
+**NOTE** *to skip the 'spec' file, add --skio-tests=true before your component name*
+
+**NOTE2** *to add a shared folder for sharing config data within your code.  Add new app components w/i your shared folder*
+    > i.e.: ng g c [folder-name/component-name]  **no brackets*
