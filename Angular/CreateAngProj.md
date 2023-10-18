@@ -2,14 +2,14 @@
 
 1.  Navigate to Folder
 2.  ng new [name_of_project] **no brackets*
-   >if strict mode, add --no-strict (after name_of_project)
+   >if strict mode, **add: --no-strict** (after name_of_project)
 
     1.  enter
-    2.  ?1 - N
+    2.  ?1 - N  *('Y' if want 'routing' file)*
     3.  ?2 - CSS
 3.  cd into [name_of_project] **no brackets*
 4.  Once in project, run:
-    1.  npm i bootstrap@latest 
+    1.  npm i bootstrap@latest *(or @3, or other)*
     2.  code .    **opens in vs code*
 
 
@@ -37,3 +37,17 @@ run ng (angular) g (generate) c (component) [**name of component* ... no bracket
 
 **NOTE2** *to add a shared folder for sharing config data within your code.  Add new app components w/i your shared folder*
     > i.e.: ng g c [folder-name/component-name]  **no brackets*
+
+_________________________________________________
+# Adding Angular to new computer
+   
+## need npm v6
+
+ - In terminal:  npm install -g npm@6
+
+## Install Angular
+
+ - npm install -g @angular/cli@latest
+    *NOTE: @latest not required*
+
+add project (**NON STRICT MODE**)
