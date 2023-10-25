@@ -7,18 +7,19 @@
 
 ## Template-Driven Form (HTML)
 
-<form>
-    <div id="user-data">
-    <div class="form-group">
-        <label for="username"> Username</label>
-        <input
-            type="text"
-            id="username"
-            class="form-control"
-            ngModel
-            name="username"
-            required>
-    </div>
+- form
+    - div id="user-data"
+    - div class="form-group"
+        - label for="username"
+        - Username  /label
+          - input
+            - type="text"
+            - id="username"
+            - class="form-control"
+            - ngModel
+            - name="username"
+            - required>
+    - /div
 
 **NOTE** *If email input ... add email after required w/ space*  required email
 
@@ -29,10 +30,12 @@
 
 ### Validate button to submit
 
-<button
-    class="btn btn-primary"
-    type="submit"
-    [disabled]="!xxx.valid">Submit</button>
+- button
+    - class="btn btn-primary"
+    - type="submit"
+    - [disabled]="!xxx.valid"
+        - Submit
+          - /button
 
 
 ### Add CSS style showing invalid
