@@ -16,7 +16,7 @@
    4. **VERIFY STAGING**
    5. Click 'Create Branch'
 5. Click 'Publish Branch' (blue btn)
-6. Open VS Code
+6. Open VS Code ... **run npm i** (installs any new pkgs since last pull)
 
 _______________________________
 
@@ -39,7 +39,7 @@ _______________________________
 
 _______________________________
 
-## RINCE & REPEAT
+## RINSE & REPEAT
 
 Once finished, go back to staging in GH Desktop:
 
