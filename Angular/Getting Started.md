@@ -31,7 +31,7 @@ added 1 package in 20s
   run `npm fund` for details
 
 ...@LAPTOP... ~
-> $ npm install -g @angular/cli@latest
+> $ npm install -g @angular/cli@latest  *NOTE(@latest not required)*
 
 ...@LAPTOP...\AppData\Roaming\npm\ng -> ...@LAPTOP...\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng.js
 + @angular/cli@16.2.3
@@ -41,7 +41,7 @@ added 249 packages from 165 contributors in 37.399s
 ## Once Angular sucessfully completes, add your project
 >   ng new [project name ... no brackets; no spaces]
 >   <i>i.e.:  ng new my-first-project</i>
->   also add --no-strict (puts in non-strict mode; strict mode is special mode to create project; then optimizing; but start by non-strict mode first)
+>   **also add --no-strict** (puts in non-strict mode; strict mode is special mode to create project; then optimizing; but start by non-strict mode first)
 > full code:  ng new my-first-project --no-strict
  - Q: Wld you like to enable autocompletion....? 
    - A: Y
