@@ -36,14 +36,10 @@ This package can be used to limit the number of requests that can be made to a p
 
 *Import after dotenv & express-async-errors*
 
-
-   const helmet = require('helmet');
-
-   const cors = require('cors');
-
-   const xss = require('xss-clean');
-
-   const rateLimiter = require('express-rate-limit');
+      const helmet = require('helmet');
+      const cors = require('cors');
+      const xss = require('xss-clean');
+      const rateLimiter = require('express-rate-limit');
 
 
 *Invoke each similar to app.use(express.json())*
@@ -62,3 +58,6 @@ This package can be used to limit the number of requests that can be made to a p
    
 
 *express-rate-limit see https://www.npmjs.com/package/express-rate-limit*
+
+-------------------------------------------
+
