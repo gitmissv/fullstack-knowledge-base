@@ -147,4 +147,6 @@ Once app is running on localhost:[port], export requests from Postman:
 **Remove hard-coded path data in SwaggerEditor*, then copy/ paste above
 
 For more info:  see udemy.com course: nodejs-tutorial-and-projects-course:
+*https://www.udemy.com/course/nodejs-tutorial-and-projects-course/learn/lecture/27635626#overview*
+
    >  Section 9: Jobs API (esp:  200 - 213)
