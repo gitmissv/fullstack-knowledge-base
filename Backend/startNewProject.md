@@ -15,21 +15,32 @@
 		// --save-dev is same as -D
 		> Nodemon:  allows to refresh server every time you make changes w/o having to restart server (manually) and is typically only used during development/testing stages
 
+	Install Password Encryption & Security Packages: npm i [package]
+		> Options:
+			jsonwebtoken
+			bcryptjs
+			express-rate-limit
+			helmet
+			xss-clean
+			cors
+
 	Package.json:
 		> REMOVE test script and create own (like Start, Dev, devStart, or other) to allow to start server
 		> i.e.:  “devStart”: “nodemon server.js”  || or ||  “nodemon app.js”
 
 	Create Files:
-		> server.js ||  **app.js** _// app.js or server.js serve same purpose_
+		> app.js ||  **server.js** _// app.js or server.js serve same purpose_
 		> .gitignore       // add .env and /node_modules_
 		> .env
 
 	Create Folder(s):
-		 > routes  (_contains the path for all processes/functions_)
+		> routes  (_contains the path for all processes/functions_)
 			> [name].routes.js      // within routes folder
+			> auth.routes.js
 
 		> controllers  (contains the processes/functions)
 			> [name].controller.js
+			> auth.controller.js
 
 		> lib
 			> constants.lib.js
