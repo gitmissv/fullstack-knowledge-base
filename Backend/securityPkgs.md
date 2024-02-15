@@ -2,7 +2,9 @@
 
 ## CORS:  Cross-Origin Resource Sharing #
 
-	CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers.  Browsers use CORS in APIs such as fetch( ) or XMLHttpRequest to mitigate the risks of cross-origin HTTP requests.
+	CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers.  
+   
+   Browsers use CORS in APIs such as fetch( ) or XMLHttpRequest to mitigate the risks of cross-origin HTTP requests.
 
 ## Helmet #
 
@@ -12,7 +14,9 @@
 
 ## xss-clean:  Cross-Site Scripting #
 
-   Cross-site scripting (xss) is a security exploit which allows an attacker to inject into a website malicious client-side code.  These attacks succeed if the Web app does not employ enough validation or encoding. The user's browser cannot detect the malicious script is untrustworthy, and so gives it access to any cookies, session tokens, or other sensitive site-specific information, or lets the malicious script rewrite the HTML content.
+   Cross-site scripting (xss) is a security exploit which allows an attacker to inject into a website malicious client-side code.  These attacks succeed if the Web app does not employ enough validation or encoding. 
+   
+   The user's browser cannot detect the malicious script is untrustworthy, and so gives it access to any cookies, session tokens, or other sensitive site-specific information, or lets the malicious script rewrite the HTML content.
 
 ## Express-Rate-Limit #
 
@@ -20,3 +24,28 @@
 
 	Install at root of project:
 		npm install express-rate-limit
+
+
+# IMPORT SECURITY PACKAGES INTO YOUR APP.JS FILE
+
+*Import after dotenv & express-async-errors*
+
+   const helmet = require('helmet');
+   const cors = require('cors');
+   const xss = require('xss-clean');
+   const rateLimiter = require('express-rate-limit');
+
+*Invoke each similar to app.use(express.json())*
+
+   app.set('trust proxy', 1);
+   app.use(rateLimiter({
+      windowMs: 15 * 60 * 1000,    *// 15 minutes*
+      max: 100,                    *// limit each IP to 100 requests per windowMs*
+   }))                             *// Add rateLimiter BEFORE express.json*
+   app.use(express.json());
+   app.use(helmet());
+   app.use(cors());
+   app.use(xss());
+   
+
+*express-rate-limit see https://www.npmjs.com/package/express-rate-limit*
