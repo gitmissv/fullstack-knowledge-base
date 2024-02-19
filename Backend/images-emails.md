@@ -5,7 +5,8 @@ Cloudinary is a cloud service that offers a solution to a web app’s image mana
       Install with npm:      npm i cloudinary
 
 *Dashboard:*
-      - Account Details:  (your credentials)
+
+      - Account Details:  [your credentials]
          - Cloud Name:    
          - API Key:
          - API Secret
@@ -20,7 +21,7 @@ Add to .env:
 In your app.js file, import cloudinary and config, under your fileupload:
 
       const fileUpload = require("express-fileupload");
-      const cloudinary = require('cloudinary').v2         // ***MUST USE v2***
+      const cloudinary = require('cloudinary').v2     // ***MUST USE v2***
       cloudinary.config({
             cloud_name: process.env.CLOUD_NAME,
             api_key: process.env.CLOUD_API_KEY,
@@ -127,25 +128,29 @@ This is a complete example to send an email with plain text and HTML body using 
       async function main() {
       // send mail with defined transport object
       const info = await transporter.sendMail({
-         from: '"Fred Foo 👻" foo@example.com',                        // sender address
-         to: bar@example.com, baz@example.com,                      // list of receivers
-         subject: "Hello ✔",                                                                      // Subject line
-         text: "Hello world?",                                                                   // plain text body
-         html: "<b>Hello world?</b>",                                                 // html body
+         from: '"Fred Foo 👻" foo@example.com',       // sender address
+         to: bar@example.com, baz@example.com,        // list of receivers
+         subject: "Hello ✔",                         // Subject line
+         text: "Hello world?",                        // plain text body
+         html: "<b>Hello world?</b>",                 // html body
       });
 
       console.log("Message sent: %s", info.messageId);
-   
-      // Message sent: b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com
+      }
 
-      //
-      // NOTE: You can go to https://forwardemail.net/my-account/emails to see your email delivery status and preview
-      //       Or you can use the "preview-email" npm package to preview emails locally in browsers and iOS Simulator
-      //       https://github.com/forwardemail/preview-email
-      //
-   }
+      main().catch(console.error);
 
-main().catch(console.error);
+
+Message sent: b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com
+
+
+**NOTE:*
+   -*You can go to https://forwardemail.net/my-account/emails to see your email delivery status and preview.*
+   -*Or you can use the "preview-email" npm package to preview emails locally in browsers and iOS Simulator*
+   *https://github.com/forwardemail/preview-email*
+
+
+      
 
 
 ## Ethereal #
