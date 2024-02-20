@@ -1,4 +1,4 @@
-#Start New Project#
+# Start New Project #
 
     npm init -y
     git init
@@ -11,7 +11,7 @@
 
     Change package.json "scripts"
 
-# Add Files and Folders
+## Add Files and Folders
 
     .env
     .gitignore (add node_modules & .env)

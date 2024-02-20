@@ -167,8 +167,8 @@ Nodemailer configuration **in your .env file**
          host: 'smtp.ethereal.email',
          port: 587,
          auth: {
-            user: 'garth.schowalter@ethereal.email',
-            pass: 'AVtvweH6JKSAAcJFAg'
+            user: 'YOUR USER',
+            pass: 'YOUR SECRET KEY'
          }
       });
 
