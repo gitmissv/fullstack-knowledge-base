@@ -135,8 +135,11 @@ Install Nodemailer:
 create files in utils folder:
 
    > nodemailerConfig.js
+
    > sendEmail.js
+
    > sendResetPasswordEmail.js
+   
    > sendVerificationEmail.js
 
 ## Crypto Library – Built in to Node #
