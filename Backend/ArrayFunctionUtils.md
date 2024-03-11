@@ -1,11 +1,14 @@
 # Function Examples #
 
+
    import {randomObjectArray} from "../other.js"
+
 
    export function first(array, n = 1){
       if  (n === 1) return array[0]
       return array.filter((_, index) => index < n)
    }
+
 
    export function last(array, n = 1){
       if (n === 1) return array[array.length -1]
@@ -17,6 +20,7 @@
       return array[randomNumberBetween(0, array.length -1)]
    }
 
+
    export function pluck(array, key){
       return array.map(element => element[key])
    }
@@ -26,11 +30,12 @@
          const keyValue = element[key]
          return { ...group, [keyValue]: [...(group[keyValue] ?? []),
          element] }
-      }, {})
-   }
+         }, {})
+      }
 
 
 # MAP METHOD to extract data from array #
+
 
    const ratings = watchList.map(movie => ({
       title: movie['title'], rating: movie['imdRating']
