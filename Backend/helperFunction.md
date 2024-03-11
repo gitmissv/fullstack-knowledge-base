@@ -1,6 +1,27 @@
 # BASIC FUNCTION #
 
+### FUNCTION>>>RTN RANDOM ARRAY ITEM #
+
+// Function to return a random item from an array
+
+	function random_item(items) {
+		// Use Math.random() to generate random number btwn 0 and 1,
+		// Multiply it by lenth of array; use Math.floor() to round down to nearest integer
+
+		return items[Math.floor(Math.random() * items.length)]
+	}
+
+// Declare and initialize an array of items
+
+	const items = ["push-ups", "pull-ups", "squats", "burpies"];
+
+
+// Output result of random_item function with the array of items
+
+	console.log(random_item(items));
   
+
+##
 
 // Import exercises …
 
