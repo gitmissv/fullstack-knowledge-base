@@ -1,6 +1,6 @@
 # BASIC FUNCTION #
 
-### FUNCTION>>>RTN RANDOM ARRAY ITEM #
+### FUNCTION>>>RTN RANDOM ITEM(S) FROM ARRAY #
 
 // Function to return a random item from an array
 
@@ -20,6 +20,25 @@
 
 	console.log(random_item(items));
   
+##
+
+#### ES6 VERSION #
+
+// Arrow function to return a random item from array
+
+	const random_item = items => items[Math.floor(Math.random() * items.length)];
+
+// Declare and initialize an array of items
+
+	const items = ["push-ups", "pull-ups", "squats", "burpies"];
+
+
+// Output result of random_item function with the array of items
+
+	console.log(random_item(items));
+
+
+RESOURCE:  https://www.w3resource.com/javascript-exercises/javascript-array-exercise-35.php#:~:text=%2F%2F%20Arrow%20function%20to%20return,the%20array%20of%20items%20console
 
 ##
 
@@ -147,3 +166,35 @@
 		successfulRes,
 		unsuccessfulRes,
 	};
+
+
+## RANDOM DATA FROM ARRAY #
+
+### Picking random elements from an array in JS #
+
+	const myArray = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape'];
+
+	const randomElement = myArray[Math.floor(Math.random() * myArray.length)];
+
+	console.log(randomElement)
+
+
+
+### Get Multiple Random Elements from Array in JS #
+
+To get multple random elements from an array:
+
+// Use the sort() method to shuffle the array
+// Use the slice() method on the shuffled array to get multiple random elements
+
+	function getMultipleRandom(arr, num) {
+		const shuffled = [...arr].sort(() => .5 - Math.random());
+
+		return shuffled.slice(0, num);
+	}
+
+	const arr = ['apples', 'bananas', 'cantelope', 'dairy']
+
+	console.log(getMultipleRandom(arr, 2)); // ['cantelope', 'bananas']
+
+	console.log(getMultipleRandom(arr, 3)); // ['bananas', 'apples', 'bananas']
