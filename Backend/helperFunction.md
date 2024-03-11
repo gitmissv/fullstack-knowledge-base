@@ -1,4 +1,5 @@
 # BASIC FUNCTION #
+
   
 
 // Import exercises …
@@ -65,7 +66,7 @@
 
   
 
-## EXAMPLE:
+## EXAMPLE: #
  
 	Const people = [
 		{ name: “a”, age: 30 },
