@@ -15,20 +15,34 @@
     	// --save-dev is same as -D
     	> Nodemon:  allows to refresh server every time you make changes w/o having to restart server (manually) and is typically only used during development/testing stages
 
-    AS NEEDED ... Install:
-    	npm i express-fileupload
-    		// w/Yarn:  yarn add express-fileupload
-    	> allows your app to upload files, photos, etc.
-
-    	Security Packages:
-    		npm i helmet      			// middleware pkg protects agains vulnerabilities
-    		npm i xss-clean   			// Cross-Site Scripting
-    		npm i express-rate-limit	// middleware pkg used to limit repeated requests to APIs & endpoints
+    Install Password Encryption & Security Packages: npm i [package]
+    	> Options:
+    		jsonwebtoken
+    		bcryptjs
+    		express-rate-limit
+    		helmet
+    		xss-clean
+    		cors
+    		express-fileuploader
 
 
     Package.json:
     	> REMOVE test script and create own (like Start, Dev, devStart, or other) to allow to start server
     	> i.e.:  “devStart”: “nodemon server.js”  || or ||  “nodemon app.js”
+
+    Create Files:
+    	> app.js ||  **server.js** _// app.js or server.js serve same purpose_
+    	> .gitignore       // add .env and /node_modules_
+    	> .env
+
+    Create Folder(s):
+    	> routes  (_contains the path for all processes/functions_)
+    		> [name].routes.js      // within routes folder
+    		> auth.routes.js
+
+    	> controllers  (contains the processes/functions)
+    		> [name].controller.js
+    		> auth.controller.js
 
     Create Files:
     	> server.js ||  **app.js** _// app.js or server.js serve same purpose_
