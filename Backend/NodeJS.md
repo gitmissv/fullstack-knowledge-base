@@ -52,9 +52,9 @@ _EXAMPLES:_
 
 >In app.js use ‘require’:_
 
-	const names = require(‘./[path’)
+	const names = require(‘./[path]’)
 
-	const sayHi = require(‘./[path’)
+	const sayHi = require(‘./[path]’)
 
 	sayHi(‘Verona’)
 

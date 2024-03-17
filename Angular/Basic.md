@@ -7,6 +7,11 @@ In TypeScript, you assign the value and type; then you must compile to JS in ord
 > _OR_ run in terminal of VS code (w/i proj)
 
 
+## Learn NEW Angular #
+
+angular.dev website – https://angular.dev/
+
+
 ## Angular Directives
 - Directives perform tasks:
   - ngIf

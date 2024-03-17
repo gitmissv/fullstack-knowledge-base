@@ -15,7 +15,7 @@
     	// --save-dev is same as -D
     	> Nodemon:  allows to refresh server every time you make changes w/o having to restart server (manually) and is typically only used during development/testing stages
 
-    Install Password Encryption & Security Packages: npm i [package]
+    Install Password Encryption, Security & other Packages: npm i [package]
     	> Options:
     		jsonwebtoken
     		bcryptjs
@@ -24,6 +24,7 @@
     		xss-clean
     		cors
     		express-fileuploader
+    		nodemailer
 
 
     Package.json:
