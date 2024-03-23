@@ -3,24 +3,36 @@
 1.  PLANNING:
 
     a. General Idea
-    i. Who is audience? Who would use this?
-    ii. What ‘type’ of person are you creating this for? Talk with some of them and get their input (survey formal or informal)
+
+        i. Who is audience? Who would use this?
+
+        ii. What ‘type’ of person are you creating this for? Talk with some of them and get their input (survey formal or informal)
 
     b. What is your personal goal?
-    i. Just to put on your portfolio?
-    ii. Learning opportunity?
-    iii. To make $$?
+
+        i. Just to put on your portfolio?
+
+        ii. Learning opportunity?
+
+        iii. To make $$?
 
     c. Give yourself deadlines!
-    i. Don’t procrastinate – create a plan.
-    ii. Give yourself a reason to be accountable.
-    iii. Get someone to hold you accountable.
+
+        i. Don’t procrastinate – create a plan.
+
+        ii. Give yourself a reason to be accountable.
+
+        iii. Get someone to hold you accountable.
 
     d. FOCUS on your MVP features!
-    i. Start SIMPLE! K.I.S.S. <Keep It Simple, Stupid>
-    ii. What do you HAVE TO HAVE vs what you would like.
-    iii. Get CORE functionality down FIRST
-    iv. What do you need immediately, then what you would like to have ‘later”.
+
+        i. Start SIMPLE! K.I.S.S. <Keep It Simple, Stupid>
+
+        ii. What do you HAVE TO HAVE vs what you would like.
+
+        iii. Get CORE functionality down FIRST
+
+        iv. What do you need immediately, then what you would like to have ‘later”.
 
 2.  EXECUTION
 
