@@ -61,5 +61,5 @@ Add classes to div:
 #### Misc. Helpful Hints:
 
 - Check version of node by typing: `node -v` in your terminal.
-- Ctrl B = hides file tree in VSC
-- Use Tailwindcss.com website to search settings (i.e.: min-height)
+- `Ctrl B` = hides/opens file tree in VSC
+- Use `www.tailwindcss.com` website to search settings (i.e.: min-height)
