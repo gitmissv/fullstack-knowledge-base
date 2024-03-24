@@ -99,3 +99,21 @@ Hierarchy of employees working on a software development project and how they fu
 - _Scrum Master_: Middle man that connects and manages the flow of information between the Project Owner and the development team
 
 - _Scrum Team_: Employees that are ‘hands-on’ and working on tasks.
+
+#
+
+### PROJECT MANAGEMENT CONCEPTS
+
+---
+
+• Agile: Agile is a software development methodology meant to increase teams’ efficiency by self-organizing the work to promote rapid and flexible response to change.
+• Sprint: Sprint is a pre-determined amount of time (usually two weeks) whereby a team decides on and works to finish a specified amount of work.
+• Kanban: Kanban is a scheduling system or workflow management method developed by an engineer at Toyota that helps visualize the work and promote continuous improvement. A Kanban Board in software development usually consists of these three primary columns laid out side by side:
+• First Col: Todo
+• Second Col: In Progress
+• Third Col: Completed
+• Jira: Jira is an advanced project management and issue tracking tool.
+• User Story: A User Story is an example narrative of an imaginary user of a product. A typical user story sounds like this: “As a (product name) user, I want (some goal) so that (some reason).”
+• Epic: An Epic is a feature or project goal that is too big for a single sprint. They are usually broken down into multiple user stories that, when finished, complete the Epic.
+
+#
