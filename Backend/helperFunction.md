@@ -185,6 +185,7 @@ RESOURCE:  https://www.w3resource.com/javascript-exercises/javascript-array-exer
 To get multple random elements from an array:
 
 // Use the sort() method to shuffle the array
+
 // Use the slice() method on the shuffled array to get multiple random elements
 
 	function getMultipleRandom(arr, num) {
